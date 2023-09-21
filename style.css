@@ -8,6 +8,7 @@ html {
 }
 
 .container {
+    width: 600px;
     position: absolute;
     top: 50vh;
     left: 50vw;
