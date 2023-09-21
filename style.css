@@ -9,6 +9,7 @@ html {
 
 .container {
     width: 600px;
+    height: 450px;
     position: absolute;
     top: 50vh;
     left: 50vw;
@@ -17,18 +18,20 @@ html {
     display: flex;
     border-radius: 10px;
 }
-.container > img {
+
+.container>img {
     width: 50%;
     border-radius: 10px 0 0 10px;
 }
 
-.container > div {
+.container>div {
     width: 50%;
+    margin: 10px 0 0 10px;
 }
 
 .title {
     font-family: 'Montserrat', sans-serif;
-    margin: 30px;
+    margin: 20px;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 12px;
@@ -38,12 +41,14 @@ html {
 .perfume-name {
     font-family: 'Fraunces', serif;
     font-size: 32px;
-    margin: 30px;
+    margin: 20px;
     font-weight: 700;
 }
-.discription{
+
+.discription {
     font-family: 'Montserrat', sans-serif;
-    margin: 25px;
+    font-size: 14px;
+    margin: 20px;
     line-height: 23px;
     color: #6C7289;
 }
@@ -52,7 +57,7 @@ html {
 .price {
     font-family: 'Fraunces', serif;
     font-size: 32px;
-    margin: 30px;
+    margin: 20px;
     display: flex;
     color: #3D8168;
 }
@@ -60,18 +65,18 @@ html {
 .old-price {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    text-decoration: line-through;
+    text-decoration: line-through 0.7px;
     color: #6C7289;
     align-content: center;
     padding-top: 10px;
-    margin-left: 25px;
-    
+    margin-left: 20px;
+
 }
 
 .add-btn {
     width: 236px;
-    height:48px;
-    margin: 0 30px 30px 30px;
+    height: 48px;
+    margin: 0 20px 20px 20px;
     border-radius: 8px;
     border: none;
     background-color: #3D8168;
@@ -87,8 +92,3 @@ html {
 .cart {
     margin-right: 10px;
 }
-
-
-
-
-
