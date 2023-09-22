@@ -91,6 +91,11 @@ html {
 
 }
 
+.add-btn:hover {
+    background-color: #1A4032;
+    cursor: pointer;
+}
+
 
 .cart {
     margin-right: 10px;
