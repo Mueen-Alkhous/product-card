@@ -19,14 +19,16 @@ html {
     border-radius: 10px;
 }
 
-.container>img {
+.photo {
     width: 50%;
+    background-image: url(./images/image-product-desktop.jpg);
+    background-size: cover;
     border-radius: 10px 0 0 10px;
 }
 
-.container>div {
+.container>div:nth-child(2) {
     width: 50%;
-    margin: 10px 0 0 10px;
+    margin: 25px 0px 0 10px;
 }
 
 .title {
@@ -41,18 +43,18 @@ html {
 .perfume-name {
     font-family: 'Fraunces', serif;
     font-size: 32px;
-    margin: 20px;
+    margin: 20px 35px 20px 20px;
     font-weight: 700;
+    line-height: 1;
 }
 
 .discription {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    margin: 20px;
+    margin: 20px 35px 20px 20px;
     line-height: 23px;
     color: #6C7289;
 }
-
 
 .price {
     font-family: 'Fraunces', serif;
@@ -76,7 +78,7 @@ html {
 .add-btn {
     width: 236px;
     height: 48px;
-    margin: 0 20px 20px 20px;
+    margin: 30px 20px 20px 20px;
     border-radius: 8px;
     border: none;
     background-color: #3D8168;
@@ -89,6 +91,41 @@ html {
 
 }
 
+
 .cart {
     margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 350px;
+        height: 680px;
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .photo {
+        width: 100%;
+        height: 50%;
+        border-radius: 10px 10px 0 0;
+        background-image: url(./images/image-product-mobile.jpg);
+        background-size: cover;
+
+    }
+
+    .container>div:nth-child(2) {
+        width: 100%;
+        margin: 10px 0 0 10px;
+    }
+
+    .add-btn {
+        width: calc(100% - 60px);
+    }
+
 }
